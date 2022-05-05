@@ -1,5 +1,5 @@
-let elImgHolder = document.querySelector(".img-holder");
-let elCircleImg = document.querySelector(".circle-box img");
+let elImgHolder = document.querySelector(".zoom");
+let elCircleImg = document.querySelector(".zoom_box img");
 
 elImgHolder.addEventListener("mousemove", (e) => {
   let x = e.offsetX - 50;

@@ -2,14 +2,14 @@
   display: flex;
 }
 
-.img-holder{
+.zoom{
   position: absolute;
   top: 50%;
   left: 50px;
   transform: translateY(-50%);
 }
 
-.circle-box{
+.zoom_box{
   left: 800px;
   width: 300px;
   height: 300px;
