@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Range</title>
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/flexboxgrid.min.css" />
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+  <link rel="stylesheet" href="css/main.min.css" />
+</head>
+
+<body class="body">
+  <h2 class="title">Range</h2>
+  <a href="textarea.html">
+  <h2 class="title">Textarea</h2>
+  </a>
+  <a href="zoom.html">
+    <h2 class="title">Zoom</h2>
+    </a>
+    <div class="main">
+      <div class="rangeDiv">
+        <span id="rangeValue">0</span>
+        <input class="range" type="range" name "" value="0" min="0" max="1000" onChange="rangeSlide(this.value)"
+          onmousemove="rangeSlide(this.value)"></input>
+      </div>
+    </div>
+
+
+  <script src="js/range.js"></script>
+</body>
+
+</html>

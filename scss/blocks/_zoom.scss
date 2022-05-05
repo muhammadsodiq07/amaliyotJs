@@ -1,0 +1,55 @@
+.box {
+  display: flex;
+}
+
+.img-holder{
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+}
+
+.circle-box{
+  left: 800px;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.links {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+}
+.zoomT {
+  font-size: 50px;
+  color: #000;
+}
+// h2 {
+//   font-size: 50px;
+//   letter-spacing: 5px;
+//   color: rgb(71,59,59);
+// }
+
+// .images {
+//   width: 80%;
+//   margin: 5% 5% 5% 10%;
+//   position: relative;
+// }
+
+
+// .img-zoom-lens {
+//   position: absolute;
+//   border: 1px solid #d4d4d4;
+//   width: 40px;
+//   height: 40px;
+// }
+
+// .img__zoom--result {
+//   background-color: teal;
+//   width: 500px;
+//   height: 300px;
+//   float: right;
+// }
